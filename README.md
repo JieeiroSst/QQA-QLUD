@@ -13,6 +13,16 @@
 * Bảo Anh
   * Thiết kế giao diện Login ( chỉnh sữa lại cho phù hợp với shop bán hàng :v)
   * Thiết kế giao diện phân quyền ( hơi khó nên từ từ làm)
+2. Ai làm được phần nào thì ghi vào dưới đây
+ * Quang
+  * ABC
+  * XYZ
+ * Quan
+  * ABC
+  * XYZ
+ * Bảo Anh
+  * ABC
+  * XYZ
   
 -------------------------- Deadline 27.11.2019 Thứ tư---------------------
 
