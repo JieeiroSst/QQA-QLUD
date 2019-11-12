@@ -15,14 +15,14 @@
   * Thiết kế giao diện phân quyền ( hơi khó nên từ từ làm)
 2. Ai làm được phần nào thì ghi vào dưới đây
  * Quang
-  * ABC
-  * XYZ
+    * ABC
+    * XYZ
  * Quan
-  * ABC
-  * XYZ
+    * ABC
+    * XYZ
  * Bảo Anh
-  * ABC
-  * XYZ
+    * ABC
+    * XYZ
   
 -------------------------- Deadline 27.11.2019 Thứ tư---------------------
 
