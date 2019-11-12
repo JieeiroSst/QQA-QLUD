@@ -54,14 +54,16 @@ create table Employees(
 	Address nvarchar(50),
 	Phone nvarchar(13),
 	RoleID int,
+	UserId int,
 
-	Primary key(EmployeeID),
+	Primary key(EmployeeID)
 )
 create table Customers(
 	CustomerID int not null IDENTITY(1,1),
 	Name nvarchar(50),
 	Address nvarchar(50),
 	Phone nvarchar(13),
+	UserID int,
 
 	Primary key(CustomerID)
 )
@@ -90,3 +92,52 @@ create table Orders(
 	GrandTotal float,
 	Description nvarchar(255),
 )
+create table _User(
+	UserID int not null IDENTITY(1,1),
+	UserName varchar(20),
+	Password varchar(50),
+	RoleId int
+)
+create table RoleForm(
+	RoleFormID int not null IDENTITY(1,1),
+	RoleId int,
+	FormId int,
+	Access bit,
+	_Insert bit,
+	_Delete bit,
+	_Update bit,
+	_Print bit,
+	Import bit,
+	Export int
+)
+insert Roles values( 'Quản trị', 'ADMIN')
+insert Roles values( 'Nhân viên', 'EMPLOYEE')
+insert Roles values( 'Khách hàng', 'USER')
+
+insert _User values('quang123', '123456', '1')
+/*
+Tự thêm vào tài khoản
+insert _User values('quang123', '123456', '1')
+insert _User values('quang123', '123456', '1')
+*/
+
+insert into Suppliers(SupplierName, Address, Phone) 
+values()
+
+
+insert into Categories(CategoryName, Description)
+values(N'Điện gia dụng', N'Vật dụng điện dùng trong gia đình')
+insert into Categories(CategoryName, Description)
+values(N'Thiết bị số - Phụ kiện số', N'Phụ kiện cho thiết bị điện tử')
+insert into Categories(CategoryName, Description)
+values(N'Điện tử - Điện lạnh', N'Điện tử - Điện lạnh')
+insert into Categories(CategoryName, Description)
+values(N'Nhà cửa - Đời sông', N'đồ gia dụng, và các vật dụng cho gia đình')
+insert into Categories(CategoryName, Description)
+values(N'Hàng tiêu dùng - Thực phẩm', N'Hàng tiêu dùng - Thực phẩm')
+insert into Categories(CategoryName, Description)
+values(N'Máy ảnh - Máy quay phim', N'Máy ảnh - Máy quay phim')
+/*
+insert into Products( ProductName,QuantitysPerUnit, Price, UnitsInStock, UnitsInOrder, Img, Description, CategoryID, SupplierID, Phone ) 
+values()*/
+
