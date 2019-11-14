@@ -20,8 +20,8 @@
     * ABC
     * XYZ
  * Quan
-    * ABC
-    * XYZ
+    * viết xong lớp DTO của các table
+    * viết được class user và  rolefrom  
  * Bảo Anh
     * Giao diện màn hình login: 100%
     * Tên các control:
