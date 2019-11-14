@@ -1,3 +1,5 @@
+# DoAnCK
+Đồ án môn học LTUDQL1
 # QQA-QLUD
 
 1. Chia công việc
@@ -21,7 +23,13 @@
     * ABC
     * XYZ
  * Bảo Anh
-    * ABC
+    * Giao diện màn hình login: 100%
+    * Tên các control:
+    * textbox nhập Username: txtUserName
+    * textbox nhập Password: txtPassword
+    * checkbox nhớ username và password: chbRemember
+    * Button đăng nhập: btnLogin
+    * Button kết thúc: btnEnd
     * XYZ
   
 -------------------------- Deadline 27.11.2019 Thứ tư---------------------
