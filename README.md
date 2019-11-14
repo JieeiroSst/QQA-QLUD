@@ -21,7 +21,7 @@
     * XYZ
  * Quan
     * viết xong lớp DTO của các table
-    * viết được class user và  rolefrom  
+    * viết được class user và  rolefrom  trong lop DAO
  * Bảo Anh
     * Giao diện màn hình login: 100%
     * Tên các control:
